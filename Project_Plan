@@ -1,0 +1,14 @@
+Aim:
+	1.face detection algorithm
+	2.Frames from a live video stream
+
+Blocks:
+
+	1.Face detection
+		1.1 rgb to grayscale
+		1.2 haar feature algorithm
+		1.3 Image segmentation
+		
+
+	2.feature extraction
+	3.model t
