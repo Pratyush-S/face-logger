@@ -15,7 +15,7 @@ with Image.open(filename1) as image:
     
     
     
-image = Image.open(filename1).convert('L')
+image = Image.open(filename1)
 basewidth = 300
 wpercent = (basewidth / float(image.size[0]))
 
@@ -25,7 +25,7 @@ img = image.resize((basewidth, hsize))
 
 img_array=np.array(img)
 
-mean_1=np.mean(sum(img_array))
+mean_1=np.mean((img_array))
 
 print(mean_1)
 
